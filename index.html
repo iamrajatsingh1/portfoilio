@@ -5,226 +5,204 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-  <head>
-    <title>rajatsingh</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="google-site-verification" content="gS37i7H_fiQ4xIhKIJB8m5m8PhmDjs0dEKvmvWzJV7k" />
-    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.scrollex.min.js"></script>
-    <script src="js/jquery.scrolly.min.js"></script>
-    <script src="js/skel.min.js"></script>
-    <script src="js/init.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
-    <script type="text/javascript">
-      function sendEmail() {
-        var name = document.getElementById("name").value;
-        var email = document.getElementById("email").value;
-        var message = document.getElementById("message").value;
+<head>
+  <title>RajatSingh</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="google-site-verification" content="gS37i7H_fiQ4xIhKIJB8m5m8PhmDjs0dEKvmvWzJV7k" />
+  <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.scrollex.min.js"></script>
+  <script src="js/jquery.scrolly.min.js"></script>
+  <script src="js/skel.min.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="./main.js"></script>
+  <noscript>
+    <link rel="stylesheet" href="css/skel.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-xlarge.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </noscript>
+</head>
 
-        console.log(name, email, message);
-        Email.send({
-          Host: "smtp.gmail.com",
-          Username: "iamrajatsingh1@gmail.com",
-          Password: "RajatSingh@29",
-          To: "iamrajatsingh1@gmail.com",
-          From: email,
-          Subject: `Email from ${name}`,
-          Body: message,
-        }).then(function (msg) {
-          alert("Email sent successfully.");
-        });
-      }
-    </script>
-    <noscript>
-      <link rel="stylesheet" href="css/skel.css" />
-      <link rel="stylesheet" href="css/style.css" />
-      <link rel="stylesheet" href="css/style-xlarge.css" />
-    </noscript>
-    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-    <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-  </head>
-  <body>
-    <!-- Header -->
-    <section id="header">
-      <header class="major">
-        <h1>Hi, I'm Rajat Singh</h1>
-        <p>Full stack Developer | Web developer | Web designer</p>
-      </header>
-      <div class="container">
-        <ul class="actions">
-          <li><a href="#one" class="button special scrolly">Start</a></li>
+<body>
+  <!-- Header -->
+  <section id="header" >
+    <header class="major">
+      <h1>Hi, I'm Rajat Singh</h1>
+      <p>Full stack Developer | Web developer | Web designer</p>
+    </header>
+    <div class="container">
+      <ul class="actions">
+        <li><a href="#one" class="button special scrolly">Start</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- One -->
+  <section id="one" class="main special">
+    <div class="container">
+      <span class="image fit primary">
+        <img src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1620576203/pic01_jhyceb.jpg" alt="" />
+      </span>
+      </span>
+      <div class="content">
+        <header class="major">
+          <h2>Who I am</h2>
+        </header>
+        <p>
+          I'm a Javascript developer with over <b>2</b> years of intense
+          Javascript experience of building complex end to end web
+          applications. Beside strong development experience, I have gained a
+          deep understanding of Javascript as a language, its ecosystem,
+          frameworks, and best practices.
+        </p>
+
+
+      </div>
+      <a href="#two" class="goto-next scrolly">Next</a>
+    </div>
+  </section>
+
+  <!-- Two -->
+  <section id="two" class="main special">
+    <div class="container">
+      <span class="image fit primary"><img
+          src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1620576202/pic02_icw5pd.jpg" alt="" /></span>
+      <div class="content">
+        <header class="major">
+          <h2>Stuff I do</h2>
+        </header>
+        <p>I am a Full stack <b>Web</b> developer</p>
+        <ul class="icons-grid">
+          <li>
+            <span class="icon major fa-camera-retro"></span>
+            <h3>Responsive Design</h3>
+          </li>
+          <li>
+            <span class="icon major fa-pencil"></span>
+            <h3>HTML/CSS</h3>
+          </li>
+          <li>
+            <span class="icon major fa-code"></span>
+            <h3>Javascript</h3>
+          </li>
+          <li>
+            <span class="icon major fa-coffee"></span>
+            <h3>1000+ Coffee</h3>
+          </li>
         </ul>
       </div>
-    </section>
+      <a href="#three" class="goto-next scrolly">Next</a>
+    </div>
+  </section>
 
-    <!-- One -->
-    <section id="one" class="main special">
-      <div class="container">
-        <span class="image fit primary">
-			<img src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1620576203/pic01_jhyceb.jpg" alt="" />
-		</span>
-        </span>
-        <div class="content">
-          <header class="major">
-            <h2>Who I am</h2>
-          </header>
-          <p>
-            I'm a Javascript developer with over <b>2</b> years of intense
-            Javascript experience of building complex end to end web
-            applications. Beside strong development experience, I have gained a
-            deep understanding of Javascript as a language, its ecosystem,
-            frameworks, and best practices.
-          </p>
+  <!-- Three -->
+  <section id="three" class="main special">
+    <div class="container">
+      <span class="image fit primary">
+        <img src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1620576203/pic03_btm1vx.jpg" alt="" />
+      </span>
+      <div class="content">
+        <header class="major">
+          <h2>Work</h2>
+        </header>
 
-          
-        </div>
-        <a href="#two" class="goto-next scrolly">Next</a>
+        <header>
+          <h4><b>Slice</b> (2019-present)</h4>
+          <h5>Full stack developer</h5>
+        </header>
+
+        <ul>
+          <li>
+            Developed Full-stack web application that processed, analyzed, and
+            rendered data visually, using <b>React-redux</b>, HTML5/ CSS
+            ensuring high performance on Mobile and Desktop.
+          </li>
+          <li>
+            <b>Restful API design</b> and development using NodeJS, Express,
+            and MongoDB, Redis.
+          </li>
+          <li>
+            Collab with back end developers, front end developers, quality
+            assurance testers, and designers as needed.
+          </li>
+          <li>Key tools used: <b>Git, Confluence, Jira, AWS, Webstorm</b></li>
+        </ul>
+
+        <hr />
+
+        <header>
+          <h4><b>MountBlue Technologies</b></h4>
+          <h5>Full stack bootcamp</h5>
+          <!-- <p>2019</p> -->
+        </header>
+
+        <ul>
+          <li>Training in <b>MongoDB | Express | ReactJS | NodeJS.</b></li>
+          <li>Deep understanding in Javascript/ES6+, JQuery, EJS.</li>
+          <li>
+            Designed and developed Micro-services based on NodeJS Express.
+          </li>
+        </ul>
       </div>
-    </section>
+      <a href="#four" class="goto-next scrolly">Next</a>
+    </div>
+  </section>
 
-    <!-- Two -->
-    <section id="two" class="main special">
-      <div class="container">
-        <span class="image fit primary"
-          ><img src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1620576202/pic02_icw5pd.jpg" alt=""
-        /></span>
-        <div class="content">
-          <header class="major">
-            <h2>Stuff I do</h2>
-          </header>
-          <p>I am a Full stack <b>Web</b> developer</p>
-          <ul class="icons-grid">
-            <li>
-              <span class="icon major fa-camera-retro"></span>
-              <h3>Responsive Design</h3>
-            </li>
-            <li>
-              <span class="icon major fa-pencil"></span>
-              <h3>HTML/CSS</h3>
-            </li>
-            <li>
-              <span class="icon major fa-code"></span>
-              <h3>Javascript</h3>
-            </li>
-            <li>
-              <span class="icon major fa-coffee"></span>
-              <h3>1000+ Coffee</h3>
-            </li>
-          </ul>
+  <section id="four" class="main special">
+    <div class="container">
+      <span class="image fit primary"><img
+          src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1620576202/pic02_icw5pd.jpg" alt="" /></span>
+      <div class="content">
+        <header class="major">
+          <h2>Programming Skills</h2>
+        </header>
+
+        <div class="col-md-6 col-sm-12">
+          <div class="skills-right skills">
+            <ul class="skills-ul">
+
+
+              <li>
+                <span>React/Redux</span>
+                <div class="skill-bar-holder">
+                  <div class="skill-capacity col-xs-9"></div>
+                </div>
+              </li>
+
+              <li>
+                <span>HTML &amp; CSS3 </span>
+                <div class="skill-bar-holder">
+                  <div class="skill-capacity col-xs-7"></div>
+                </div>
+              </li>
+              <li>
+                <span>Javascript</span>
+                <div class="skill-bar-holder">
+                  <div class="skill-capacity col-xs-11"></div>
+                </div>
+              </li>
+
+              <li>
+                <span>MongoDB</span>
+                <div class="skill-bar-holder">
+                  <div class="skill-capacity col-xs-6"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-        <a href="#three" class="goto-next scrolly">Next</a>
       </div>
-    </section>
+      <a href="#footer" class="goto-next scrolly">Next</a>
+    </div>
+  </section>
+  <!-- Four -->
 
-    <!-- Three -->
-    <section id="three" class="main special">
-      <div class="container">
-        <span class="image fit primary"
-          >
-		  <img src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1620576203/pic03_btm1vx.jpg" alt=""/>
-	</span>
-        <div class="content">
-          <header class="major">
-            <h2>Work</h2>
-          </header>
-
-          <header>
-            <h4><b>Slice</b> (2019-present)</h4>
-            <h5>Full stack developer</h5>
-          </header>
-
-          <ul>
-            <li>
-              Developed Full-stack web application that processed, analyzed, and
-              rendered data visually, using <b>React-redux</b>, HTML5/ CSS
-              ensuring high performance on Mobile and Desktop.
-            </li>
-            <li>
-              <b>Restful API design</b> and development using NodeJS, Express,
-              and MongoDB, Redis.
-            </li>
-            <li>
-              Collab with back end developers, front end developers, quality
-              assurance testers, and designers as needed.
-            </li>
-            <li>Key tools used: <b>Git, Confluence, Jira, AWS, Webstorm</b></li>
-          </ul>
-
-          <hr />
-
-          <header>
-            <h4><b>MountBlue Technologies</b></h4>
-            <h5>Full stack bootcamp</h5>
-            <!-- <p>2019</p> -->
-          </header>
-
-          <ul>
-            <li>Training in <b>MongoDB | Express | ReactJS | NodeJS.</b></li>
-            <li>Deep understanding in Javascript/ES6+, JQuery, EJS.</li>
-            <li>
-              Designed and developed Micro-services based on NodeJS Express.
-            </li>
-          </ul>
-        </div>
-        <a href="#four" class="goto-next scrolly">Next</a>
-      </div>
-    </section>
-
-	<section id="four" class="main special">
-		  <div class="container">
-			<span class="image fit primary"
-			  ><img src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1620576202/pic02_icw5pd.jpg" alt=""
-			/></span>
-			<div class="content">
-			  <header class="major">
-				<h2>Programming Skills</h2>
-			  </header>
-	
-			  <div class="col-md-6 col-sm-12">
-				<div class="skills-right skills">
-				  <ul class="skills-ul">
-					
-	
-					<li>
-					  <span>React/Redux</span>
-					  <div class="skill-bar-holder">
-						<div class="skill-capacity col-xs-9"></div>
-					  </div>
-					</li>
-	
-					<li>
-					  <span>HTML &amp; CSS3 </span>
-					  <div class="skill-bar-holder">
-						<div class="skill-capacity col-xs-7"></div>
-					  </div>
-					</li>
-					<li>
-						<span>Javascript</span>
-						<div class="skill-bar-holder">
-						  <div class="skill-capacity col-xs-11"></div>
-						</div>
-					  </li>
-	
-					<li>
-					  <span>MongoDB</span>
-					  <div class="skill-bar-holder">
-						<div class="skill-capacity col-xs-6"></div>
-					  </div>
-					</li>
-				  </ul>
-				</div>
-			  </div>
-			</div>
-			<a href="#footer" class="goto-next scrolly">Next</a>
-		  </div>
-	</section>
-    <!-- Four -->
-
-    <!-- <section id="four" class="main">
+  <!-- <section id="four" class="main">
       <div class="container">
         <div class="content">
           <header class="major">
@@ -707,18 +685,32 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
       </div>
     </section> -->
 
-    <!-- Footer -->
-    <section id="footer">
-      <div class="container">
-        <header class="major">
-          <h2>Get in touch</h2>
-        </header>
+  <!-- Footer -->
+  <section id="footer">
+    <div class="container">
+      <header class="major">
+        <h2>Get in touch</h2>
+      </header>
 
-        <!-- <form method="post" onsubmit="sendEmail()"> -->
+      <!-- <form method="post" onsubmit="sendEmail()"> -->
 
-        <div class="row uniform">
-          <!-- <div class="6u 12u$(xsmall)">
+      <div class="row uniform">
+        <!-- <div class="6u 12u$(xsmall)">
             <span class="label">Rajat Singh</span> -->
+        <!-- Name
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              value="Rajat Singh"
+              disabled
+              required
+            /> -->
+        <!-- </div> -->
+        <div class="6u 12u$(xsmall)">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <span class="label">+91-7007619747</span>
           <!-- Name
             <input
               type="text"
@@ -729,28 +721,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
               disabled
               required
             /> -->
-          <!-- </div> -->
-          <div class="6u 12u$(xsmall)">
-            <i class="fa fa-phone" aria-hidden="true"></i>
-            <span class="label">+91-7007619747</span>
-            <!-- Name
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Name"
-              value="Rajat Singh"
-              disabled
-              required
-            /> -->
-          </div>
-          <div class="6u$ 12u$(xsmall)">
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-            <span class="label">iamrajatsingh1@gmail.com</span>
-            <!-- <span class="icon alt fa-instagram"
+        </div>
+        <div class="6u$ 12u$(xsmall)">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <span class="label">iamrajatsingh1@gmail.com</span>
+          <!-- <span class="icon alt fa-instagram"
               ><span class="label">iamrajatsingh1@gmail.com</span></span
             > -->
-            <!-- <input
+          <!-- <input
               type="email"
               name="email"
               id="email"
@@ -759,36 +737,36 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
               disabled
               required
             /> -->
-          </div>
+        </div>
 
-          <div class="12u$">
-            <span class="label"><b>Availablilty</b></span>
-            <p>Mon-Sat: 10:00 AM – 9:00 PM Sun: 11:00 AM – 04:00 PM</p>
-            <!-- <textarea
+        <div class="12u$">
+          <span class="label"><b>Availablilty</b></span>
+          <p>Mon-Sat: 10:00 AM – 9:00 PM Sun: 11:00 AM – 04:00 PM</p>
+          <!-- <textarea
               name="message"
               id="message"
               placeholder="Message"
               rows="4"
               required
             ></textarea> -->
-          </div>
-          <!-- <div class="12u$">
+        </div>
+        <!-- <div class="12u$">
               <ul class="actions">
                 <li>
                   <input type="submit" value="Send Message" class="special" />
                 </li>
               </ul>
             </div> -->
-        </div>
-		
-        <!-- </form> -->
       </div>
 
+      <!-- </form> -->
+    </div>
 
-	  
-      <footer>
-        <ul class="icons">
-          <!-- <li>
+
+
+    <footer>
+      <ul class="icons">
+        <!-- <li>
             <a href="#" class="icon alt fa-twitter"
               ><span class="label">Twitter</span></a
             >
@@ -798,35 +776,37 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
               ><span class="label">Facebook</span></a
             >
           </li> -->
-          <li>
-            <a
-			target="_blank"
-              href="https://www.instagram.com/rxjxtsxngh/"
-              class="icon alt fa-instagram"
-              ><span class="label">Instagram</span></a
-            >
-          </li>
-          <li>
-            <a
-			target="_blank"
-              href="https://www.linkedin.com/in/rajat-singh-798572154/"
-              class="icon alt fa-linkedin"
-              ><span class="label">Linked In</span></a
-            >
-          </li>
-          <!-- <li>
-            <a href="#" class="icon alt fa-envelope"
+        <li>
+          <a target="_blank" href="https://www.instagram.com/rxjxtsxngh/" class="icon alt fa-instagram"><span
+              class="label">Instagram</span></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/rajat-singh-798572154/"
+            class="icon alt fa-linkedin"><span class="label">Linked In</span></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://iamrajatsingh1.medium.com/" class="icon alt">
+            <img style="width: 26px;
+              margin-bottom: -5px;" src="https://img.icons8.com/ios-filled/50/ffffff/medium-new.png" class="medium-icon"/>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/rajatsyngh" class="icon fa-github"><span class="label">Github</span></a>
+        </li>
+        <li>
+            <a href="https://mail.google.com/mail/u/0/#inbox" class="icon alt fa-envelope"
               ><span class="label">Email</span></a
             >
-          </li> -->
-        </ul>
-        <ul class="copyright">
-          <li>&copy; Rajat Singh</li>
-          <li>2021</li>
-          <!-- <li>Demo Images: <a href="http://unsplash.com">Unsplash</a></li> -->
-        </ul>
-		
-      </footer>
-    </section>
-  </body>
+          </li>
+      </ul>
+      <ul class="copyright">
+        <li>&copy; Rajat Singh</li>
+        <li>2021</li>
+        <!-- <li>Demo Images: <a href="http://unsplash.com">Unsplash</a></li> -->
+      </ul>
+
+    </footer>
+  </section>
+</body>
+
 </html>
