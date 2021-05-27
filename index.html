@@ -1,914 +1,1035 @@
 <!DOCTYPE html>
-<!--
-	Portfolio by Rajat Singh <iamrajatsingh1@gmail.com>
-	All Rights Reserved 2021 by Rajat Singh <iamrajatsingh1@gmail.com>
--->
-
-<html>
+<html lang="en">
   <head>
-    <title>RajatSingh</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta charset="utf-8" />
     <meta
-      name="google-site-verification"
-      content="gS37i7H_fiQ4xIhKIJB8m5m8PhmDjs0dEKvmvWzJV7k"
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.scrollex.min.js"></script>
-    <script src="js/jquery.scrolly.min.js"></script>
-    <script src="js/skel.min.js"></script>
-    <script src="js/init.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="./main.js"></script>
+    <meta
+      name="description"
+      content="Rajat Singh's Portfolio website iamrajatsingh1@gmail.com"
+    />
+    <meta name="author" content="Rajat Singh iamrajatsingh1@gmail.com" />
+    <meta
+      content="https://assets.website-files.com/5bff8886c3964a992e90d465/5c050a75fc73fba30bf816f1_seo-rectangle.jpg"
+      property="og:image"
+    />
+    <title>Rajat's Portfolio</title>
 
-    <noscript>
-      <link rel="stylesheet" href="css/skel.css" />
-      <link rel="stylesheet" href="css/style.css" />
-      <link rel="stylesheet" href="css/style-xlarge.css" />
-      <link
-        rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
-      />
-    </noscript>
+    <link
+      href="https://assets.website-files.com/5bff8886c3964a992e90d465/5c00a0ccd86e9656ff7c748a_favicon-32.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/unicons.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/tooplate-style.css" />
   </head>
-
-  <body>
-    <!-- Header -->
-    <section id="header">
-      <header class="major">
-        <h1>Hi, I'm Rajat Singh</h1>
-        <p>Building scalable Application</p>
-      </header>
+  <body id="body">
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
       <div class="container">
-        <ul class="actions">
-          <li>
-            <a href="#one" class="button special scrolly">Start</a>
-          </li>
-        </ul>
-      </div>
-    </section>
+        <a class="navbar-brand d-flex align-items-center" href="index.html"
+          ><i class="uil uil-user"></i> RAJAT</a
+        >
 
-    <!-- One -->
-    <section id="one" class="main special">
-      <div class="container">
-        <!-- <span class="image fit primary">
-          <img
-            src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1620576203/pic01_jhyceb.jpg"
-            alt=""
-          />
-        </span> -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <div class="content">
-          <header class="major">
-            <h2>Who I am</h2>
-          </header>
-          <p>
-            I'm a <b>full stack developer</b> with over <b>2 years</b> of
-            intense Javascript experience of building complex end to end web
-            applications. Beside strong development experience, I have gained a
-            deep understanding of Javascript as a language, its ecosystem,
-            frameworks, and best practices.
-          </p>
-        </div>
-        <a href="#two" class="goto-next scrolly">Next</a>
-      </div>
-    </section>
-
-    <!-- Two -->
-    <section id="two" class="main special">
-      <div class="container">
-        <!-- <span class="image fit primary"
-          ><img
-            src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1620576202/pic02_icw5pd.jpg"
-            alt=""
-        /></span> -->
-        <div class="content">
-          <header class="major">
-            <h2>Stuff I do</h2>
-          </header>
-          <p>I am a Full stack <b>Web</b> developer</p>
-          <ul class="icons-grid">
-            <li>
-              <span class="icon major fa-camera-retro"></span>
-              <h3>Prototype</h3>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a href="#about" class="nav-link"
+                ><span data-hover="About">About</span></a
+              >
             </li>
-            <li>
-              <span class="icon major fa-pencil"></span>
-              <h3>Design</h3>
+            <!-- <li class="nav-item">
+              <a href="#project" class="nav-link"
+                ><span data-hover="Projects">Projects</span></a
+              >
+            </li> -->
+            <li class="nav-item">
+              <a href="#skill" class="nav-link"
+                ><span data-hover="Skill">Skill</span></a
+              >
             </li>
-            <li>
-              <span class="icon major fa-code"></span>
-              <h3>development</h3>
+            <li class="nav-item">
+              <a href="#work" class="nav-link"
+                ><span data-hover="Work">Work</span></a
+              >
             </li>
-            <li>
-              <span class="icon major fa-coffee"></span>
-              <h3>1000+ Coffee</h3>
+            <li class="nav-item">
+              <a href="#academics" class="nav-link"
+                ><span data-hover="Academics">Academics</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#blog" class="nav-link"
+                ><span data-hover="Blog">Blogs</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link"
+                ><span data-hover="Contact">Contact</span></a
+              >
             </li>
           </ul>
-        </div>
-        <a href="#three" class="goto-next scrolly">Next</a>
-      </div>
-    </section>
 
-    <!-- Three -->
-    <section id="three" class="main special">
-      <div class="container">
-        <!-- <span class="image fit primary">
-          <img
-            src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1620576203/pic03_btm1vx.jpg"
-            alt=""
-          />
-        </span> -->
-        <div class="content">
-          <header class="major">
-            <h2>Work</h2>
-          </header>
-
-          <header>
-            <h4><b>Slice</b> (2019-present)</h4>
-            <h5>Full stack developer</h5>
-          </header>
-
-          <ul style="text-align: start">
-            <li>
-              Developed Full-stack scalable web application that processed,
-              analyzed, and rendered data visually, using <b>React-redux</b>,
-              HTML5/ CSS ensuring high performance on Mobile and Desktop.
-            </li>
-            <li>
-              Developed an Authorisation service based on Role-Permission module
-              which gives Access to each user having specific Role with its
-              corresponding permissions and renders the UI accordingly.
-            </li>
-            <li>
-              <b>Design & development</b> of Restful APIs & Micro-services using
-              NodeJS, Express, and MongoDB, Redis.
-            </li>
-            <li>
-              Collab with back end developers, front end developers, quality
-              assurance testers, and designers as needed.
-            </li>
-            <li>Resolving bug reported on real time basis.</li>
-            <li>Key tools used: <b>Git, Confluence, Jira, AWS, Webstorm</b></li>
-          </ul>
-
-          <hr />
-
-          <header>
-            <h4><b>MountBlue Technologies</b> (2019)</h4>
-            <h5>Full stack bootcamp</h5>
-            <!-- <p>2019</p> -->
-          </header>
-
-          <ul style="text-align: start">
-            <li>
-              Gained knowledge in
-              <b>MongoDB | Express | React-Redux | NodeJS.</b>
-            </li>
-            <li>Deep understanding in Javascript/ES6+, JQuery, EJS.</li>
-            <li>
-              Designed and developed Micro-services based on NodeJS Express.
-            </li>
-            <li>Understanding in Database management using MySql/MongoDB</li>
-            <li>
-              Gained knowledge in System design of the complex E-commerce Apps.
-            </li>
-            <li>
-              Created clone of Myntra website using ReactJs, MongoDB & NodeJs.
-            </li>
-          </ul>
-        </div>
-        <a href="#four" class="goto-next scrolly">Next</a>
-      </div>
-    </section>
-
-    <section id="four" class="main special">
-      <div class="container">
-        <!-- <span class="image fit primary"
-          ><img
-            src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1620576202/pic02_icw5pd.jpg"
-            alt=""
-        /></span> -->
-        <div class="content">
-          <header class="major">
-            <h2>Programming Skills</h2>
-          </header>
-
-          <div class="col-md-6 col-sm-12">
-            <div class="skills-right skills">
-              <ul class="skills-ul">
-                <li>
-                  <span>React/Redux</span>
-                  <div class="skill-bar-holder">
-                    <div class="skill-capacity col-xs-9"></div>
-                  </div>
-                </li>
-
-                <li>
-                  <span>HTML &amp; CSS3 </span>
-                  <div class="skill-bar-holder">
-                    <div class="skill-capacity col-xs-7"></div>
-                  </div>
-                </li>
-                <li>
-                  <span>Javascript</span>
-                  <div class="skill-bar-holder">
-                    <div class="skill-capacity col-xs-11"></div>
-                  </div>
-                </li>
-
-                <li>
-                  <span>MongoDB</span>
-                  <div class="skill-bar-holder">
-                    <div class="skill-capacity col-xs-6"></div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <a href="#five" class="goto-next scrolly">Next</a>
-      </div>
-    </section>
-    <!-- Four -->
-    <section id="five" class="main special">
-      <div class="container">
-        <div class="content">
-          <header class="major">
-            <h2>Blogs</h2>
-          </header>
-          <!-- Blog -1 -->
-          <blockquote>
-            <a
-              href="https://iamrajatsingh1.medium.com/overview-of-redux-saga-side-effect-manger-802bd656db37"
-              target="_blank"
-            >
-              <span class="image left">
-                <img
-                  src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1621766998/redux-saga_nsomzy.jpg"
-                  alt="desktop"
-                />
-              </span>
-            </a>
-            <h3><b>Overview of Redux-saga: Side Effect manager</b></h3>
-            In this guide, we’ll explore Redux & usage of its middleware
-            saga/thunk. We’ll see what effective solution redux-saga provides.
-            And at the end, we’ll create a small app using redux-saga & compare
-            it with Redux-thunk middleware.
-            <a
-              href="https://iamrajatsingh1.medium.com/overview-of-redux-saga-side-effect-manger-802bd656db37"
-              target="_blank"
-              >Continue reading ....</a
-            >
-          </blockquote>
-          <!-- Blog -2 -->
-          <blockquote
-            style="
-              border-right: solid 6px #dddddd;
-              border-left: none;
-              padding-top: 0.5em;
-              padding-right: 1.5em;
-              padding-bottom: 0.5em;
-              padding-left: 0px;
-            "
-          >
-            <a
-              href="https://iamrajatsingh1.medium.com/config-driven-ui-c8e93b730993"
-              target="_blank"
-            >
-              <span class="image right">
-                <img
-                  src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1621767086/login_form_u54si3.jpg"
-                  alt="desktop"
-                />
-              </span>
-            </a>
-            <h3><b>Config driven UI</b></h3>
-            In this guide, we’ll see how Configs can be used to render two types
-            of UI: Config driven Forms/UI, & Data-driven Forms/UI using a Config
-            <a
-              href="https://iamrajatsingh1.medium.com/config-driven-ui-c8e93b730993"
-              target="_blank"
-              >Continue reading ....</a
-            >
-          </blockquote>
-
-          <!-- Blog -3 -->
-          <blockquote>
-            <a
-              href="https://iamrajatsingh1.medium.com/guide-to-react-hooks-with-redux-c5b9d6e3c362"
-              target="_blank"
-            >
-              <span class="image left">
-                <img
-                  src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1621172004/carl-heyerdahl-KE0nC8-58MQ-unsplash_b15lcq.jpg"
-                  alt="desktop"
-                />
-              </span>
-            </a>
-            <h3><b>Guide to React hooks with Redux</b></h3>
-            Here, I’ll discuss React Hooks which is a new addition in React
-            16.8. They let you use state and other React features without
-            writing a class. In this blog, I’ll tell you exactly how to use
-            hooks efficiently & their usage with Redux using only React hooks.
-            <a
-              href="https://iamrajatsingh1.medium.com/guide-to-react-hooks-with-redux-c5b9d6e3c362"
-              target="_blank"
-              >Continue reading ....</a
-            >
-          </blockquote>
-          <!-- Blog -4 -->
-          <blockquote
-            style="
-              border-right: solid 6px #dddddd;
-              border-left: none;
-              padding-top: 0.5em;
-              padding-right: 1.5em;
-              padding-bottom: 0.5em;
-              padding-left: 0px;
-            "
-          >
-            <a
-              href="https://iamrajatsingh1.medium.com/5-steps-to-debug-the-code-blocks-6b69a70c86ca"
-              target="_blank"
-            >
-              <span class="image right">
-                <img
-                  src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1621180875/code_tecinz.jpg"
-                  alt="desktop"
-                />
-              </span>
-            </a>
-            <h3><b>5 steps to debug the code blocks</b></h3>
-            At one time or another, as a developer, we all have been hopelessly
-            stuck on a coding issue we had to solve. Desperately searching
-            StackOverflow for the same thinking that someone might have the
-            exact issue that you do. Only to find that the answer was right in
-            front of you the whole time, how could you miss it!
-            <a
-              href="https://iamrajatsingh1.medium.com/5-steps-to-debug-the-code-blocks-6b69a70c86ca"
-              target="_blank"
-              >Continue reading ....</a
-            >
-          </blockquote>
-        </div>
-
-        <a href="#footer" class="goto-next scrolly">Next</a>
-      </div>
-    </section>
-    <!-- <section id="four" class="main">
-    <div class="container">
-      <div class="content">
-        <header class="major">
-          <h2>Elements</h2>
-        </header>
-        <section>
-          <h4>Text</h4>
-          <p>
-            This is <b>bold</b> and this is <strong>strong</strong>. This is
-            <i>italic</i> and this is <em>emphasized</em>. This is
-            <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-            This is <u>underlined</u> and this is code:
-            <code>for (;;) { ... }</code>. Finally,
-            <a href="#">this is a link</a>.
-          </p>
-          <hr />
-          <header>
-            <h4>Heading with a Subtitle</h4>
-            <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-          </header>
-          <p>
-            Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida
-            odio porttitor sem non mi integer non faucibus ornare mi ut ante
-            amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem
-            accumsan varius montes viverra nibh in adipiscing blandit tempus
-            accumsan.
-          </p>
-          <header>
-            <h5>Heading with a Subtitle</h5>
-            <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-          </header>
-          <p>
-            Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida
-            odio porttitor sem non mi integer non faucibus ornare mi ut ante
-            amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem
-            accumsan varius montes viverra nibh in adipiscing blandit tempus
-            accumsan.
-          </p>
-          <hr />
-          <h2>Heading Level 2</h2>
-          <h3>Heading Level 3</h3>
-          <h4>Heading Level 4</h4>
-          <h5>Heading Level 5</h5>
-          <h6>Heading Level 6</h6>
-          <hr />
-          <h5>Blockquote</h5>
-          <blockquote>
-            Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
-            sagittis eget tempus euismod. Vestibulum ante ipsum primis in
-            faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat
-            ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in
-            faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.
-          </blockquote>
-          <h5>Preformatted</h5>
-          <pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-        </section>
-
-        <section>
-          <h4>Lists</h4>
-          <div class="row">
-            <div class="6u 12u$(medium)">
-              <h5>Unordered</h5>
-              <ul>
-                <li>Dolor pulvinar etiam.</li>
-                <li>Sagittis adipiscing.</li>
-                <li>Felis enim feugiat.</li>
-              </ul>
-              <h5>Alternate</h5>
-              <ul class="alt">
-                <li>Dolor pulvinar etiam.</li>
-                <li>Sagittis adipiscing.</li>
-                <li>Felis enim feugiat.</li>
-              </ul>
-            </div>
-            <div class="6u$ 12u(medium)">
-              <h5>Ordered</h5>
-              <ol>
-                <li>Dolor pulvinar etiam.</li>
-                <li>Etiam vel felis viverra.</li>
-                <li>Felis enim feugiat.</li>
-                <li>Dolor pulvinar etiam.</li>
-                <li>Etiam vel felis lorem.</li>
-                <li>Felis enim et feugiat.</li>
-              </ol>
-              <h5>Icons</h5>
-              <ul class="icons">
-                <li>
-                  <a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a>
-                </li>
-                <li>
-                  <a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a>
-                </li>
-                <li>
-                  <a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a>
-                </li>
-                <li>
-                  <a href="#" class="icon fa-github"><span class="label">Github</span></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <h5>Actions</h5>
-          <ul class="actions">
-            <li><a href="#" class="button special">Default</a></li>
-            <li><a href="#" class="button">Default</a></li>
-          </ul>
-          <ul class="actions small">
-            <li><a href="#" class="button special small">Small</a></li>
-            <li><a href="#" class="button small">Small</a></li>
-          </ul>
-          <div class="row">
-            <div class="6u 12u$(small)">
-              <ul class="actions vertical">
-                <li><a href="#" class="button special">Default</a></li>
-                <li><a href="#" class="button">Default</a></li>
-              </ul>
-            </div>
-            <div class="6u$ 12u$(small)">
-              <ul class="actions vertical small">
-                <li><a href="#" class="button special small">Small</a></li>
-                <li><a href="#" class="button small">Small</a></li>
-              </ul>
-            </div>
-            <div class="6u 12u$(small)">
-              <ul class="actions vertical">
-                <li><a href="#" class="button special fit">Default</a></li>
-                <li><a href="#" class="button fit">Default</a></li>
-              </ul>
-            </div>
-            <div class="6u$ 12u$(small)">
-              <ul class="actions vertical small">
-                <li>
-                  <a href="#" class="button special small fit">Small</a>
-                </li>
-                <li><a href="#" class="button small fit">Small</a></li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <section>
-          <h4>Table</h4>
-          <h5>Default</h5>
-          <div class="table-wrapper">
-            <table>
-              <thead>
-                <tr>
-                  <th>Name</th>
-                  <th>Description</th>
-                  <th>Price</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Item One</td>
-                  <td>Ante turpis integer aliquet porttitor.</td>
-                  <td>29.99</td>
-                </tr>
-                <tr>
-                  <td>Item Two</td>
-                  <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                  <td>19.99</td>
-                </tr>
-                <tr>
-                  <td>Item Three</td>
-                  <td>Morbi faucibus arcu accumsan lorem.</td>
-                  <td>29.99</td>
-                </tr>
-                <tr>
-                  <td>Item Four</td>
-                  <td>Vitae integer tempus condimentum.</td>
-                  <td>19.99</td>
-                </tr>
-                <tr>
-                  <td>Item Five</td>
-                  <td>Ante turpis integer aliquet porttitor.</td>
-                  <td>29.99</td>
-                </tr>
-              </tbody>
-              <tfoot>
-                <tr>
-                  <td colspan="2"></td>
-                  <td>100.00</td>
-                </tr>
-              </tfoot>
-            </table>
-          </div>
-
-          <h5>Alternate</h5>
-          <div class="table-wrapper">
-            <table class="alt">
-              <thead>
-                <tr>
-                  <th>Name</th>
-                  <th>Description</th>
-                  <th>Price</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Item One</td>
-                  <td>Ante turpis integer aliquet porttitor.</td>
-                  <td>29.99</td>
-                </tr>
-                <tr>
-                  <td>Item Two</td>
-                  <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                  <td>19.99</td>
-                </tr>
-                <tr>
-                  <td>Item Three</td>
-                  <td>Morbi faucibus arcu accumsan lorem.</td>
-                  <td>29.99</td>
-                </tr>
-                <tr>
-                  <td>Item Four</td>
-                  <td>Vitae integer tempus condimentum.</td>
-                  <td>19.99</td>
-                </tr>
-                <tr>
-                  <td>Item Five</td>
-                  <td>Ante turpis integer aliquet porttitor.</td>
-                  <td>29.99</td>
-                </tr>
-              </tbody>
-              <tfoot>
-                <tr>
-                  <td colspan="2"></td>
-                  <td>100.00</td>
-                </tr>
-              </tfoot>
-            </table>
-          </div>
-        </section>
-
-        <section>
-          <h4>Buttons</h4>
-          <ul class="actions">
-            <li><a href="#" class="button special">Special</a></li>
-            <li><a href="#" class="button">Default</a></li>
-          </ul>
-          <ul class="actions">
-            <li><a href="#" class="button">Default</a></li>
-            <li><a href="#" class="button small">Small</a></li>
-          </ul>
-          <ul class="actions fit">
-            <li><a href="#" class="button special fit">Fit</a></li>
-            <li><a href="#" class="button fit">Fit</a></li>
-          </ul>
-          <ul class="actions fit small">
-            <li>
-              <a href="#" class="button special fit small">Fit + Small</a>
-            </li>
-            <li><a href="#" class="button fit small">Fit + Small</a></li>
-          </ul>
-          <ul class="actions">
-            <li>
-              <a href="#" class="button special icon fa-download">Icon</a>
-            </li>
-            <li><a href="#" class="button icon fa-download">Icon</a></li>
-          </ul>
-          <ul class="actions">
-            <li><span class="button special disabled">Disabled</span></li>
-            <li><span class="button disabled">Disabled</span></li>
-          </ul>
-        </section>
-
-        <section>
-          <h4>Form</h4>
-          <form method="post" action="#">
-            <div class="row uniform">
-              <div class="6u 12u$(xsmall)">
-                <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+          <ul class="navbar-nav ml-lg-auto">
+            <div class="ml-lg-4">
+              <div
+                class="
+                  toggle-button
+                  color-mode
+                  d-lg-flex
+                  justify-content-center
+                  align-items-center
+                "
+              >
+                <i class="color-mode-icon"></i>
+                Color mode
               </div>
-              <div class="6u$ 12u$(xsmall)">
-                <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section
+      class="
+        about
+        full-screen
+        d-lg-flex
+        justify-content-center
+        align-items-center
+      "
+      id="about"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+            <div class="about-text">
+              <small class="small-text"
+                >Welcome to
+                <span class="mobile-block">my portfolio website!</span></small
+              >
+              <h1 class="animated animated-text">
+                <span class="mr-2">Hey folks, I'm</span>
+                <div class="animated-info">
+                  <span class="animated-item">Rajat Singh</span>
+                  <span class="animated-item">Web developer</span>
+                  <span class="animated-item">UX developer</span>
+                </div>
+              </h1>
+
+              <p>
+                Building a successful scalable product is a challenge. I am
+                highly energetic in building and scaling full stack web
+                applications.
+              </p>
+
+              <div class="custom-btn-group mt-4">
+                <a href="#" class="btn mr-lg-2 custom-btn"
+                  ><i class="uil uil-file-alt"></i> Download Resume</a
+                >
+                <a
+                  href="#contact"
+                  class="btn custom-btn custom-btn-bg custom-btn-link"
+                  >Get in touch</a
+                >
               </div>
-              <div class="12u$">
-                <div class="select-wrapper">
-                  <select name="demo-category" id="demo-category">
-                    <option value="">- Category -</option>
-                    <option value="1">Manufacturing</option>
-                    <option value="1">Shipping</option>
-                    <option value="1">Administration</option>
-                    <option value="1">Human Resources</option>
-                  </select>
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-12 col-12">
+            <div class="about-image svg">
+              <img
+                src="images/undraw/undraw_feeling_proud_qne1.svg"
+                class="img-fluid"
+                alt="svg image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <!-- <section class="project py-5" id="project">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-11 text-center mx-auto col-12">
+            <div class="col-lg-8 mx-auto">
+              <h2>Things I have designed for digital media agencies</h2>
+            </div>
+
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="project-info">
+                  <img
+                    src="images/project/project-image01.png"
+                    class="img-fluid"
+                    alt="project image"
+                  />
                 </div>
               </div>
-              <div class="4u 12u$(small)">
-                <input type="radio" id="demo-priority-low" name="demo-priority" checked />
-                <label for="demo-priority-low">Low</label>
-              </div>
-              <div class="4u 12u$(small)">
-                <input type="radio" id="demo-priority-normal" name="demo-priority" />
-                <label for="demo-priority-normal">Normal</label>
-              </div>
-              <div class="4u$ 12u$(small)">
-                <input type="radio" id="demo-priority-high" name="demo-priority" />
-                <label for="demo-priority-high">High</label>
-              </div>
-              <div class="6u 12u$(small)">
-                <input type="checkbox" id="demo-copy" name="demo-copy" />
-                <label for="demo-copy">Email me a copy</label>
-              </div>
-              <div class="6u$ 12u$(small)">
-                <input type="checkbox" id="demo-human" name="demo-human" checked />
-                <label for="demo-human">Not a robot</label>
-              </div>
-              <div class="12u$">
-                <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-              </div>
-              <div class="12u$">
-                <ul class="actions">
-                  <li>
-                    <input type="submit" value="Send Message" class="special" />
-                  </li>
-                  <li><input type="reset" value="Reset" /></li>
-                </ul>
-              </div>
-            </div>
-          </form>
-        </section>
 
-        <section>
-          <h4>Image</h4>
-          <h5>Fit</h5>
-          <div class="box alt">
-            <div class="row uniform 50%">
-              <div class="12u">
-                <span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+              <div class="item">
+                <div class="project-info">
+                  <img
+                    src="images/project/project-image02.png"
+                    class="img-fluid"
+                    alt="project image"
+                  />
+                </div>
               </div>
-              <div class="4u">
-                <span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+
+              <div class="item">
+                <div class="project-info">
+                  <img
+                    src="images/project/project-image03.png"
+                    class="img-fluid"
+                    alt="project image"
+                  />
+                </div>
               </div>
-              <div class="4u">
-                <span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+
+              <div class="item">
+                <div class="project-info">
+                  <img
+                    src="images/project/project-image04.png"
+                    class="img-fluid"
+                    alt="project image"
+                  />
+                </div>
               </div>
-              <div class="4u">
-                <span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-              </div>
-              <div class="4u">
-                <span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-              </div>
-              <div class="4u">
-                <span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-              </div>
-              <div class="4u">
-                <span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-              </div>
-              <div class="4u">
-                <span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-              </div>
-              <div class="4u">
-                <span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-              </div>
-              <div class="4u">
-                <span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+
+              <div class="item">
+                <div class="project-info">
+                  <img
+                    src="images/project/project-image05.png"
+                    class="img-fluid"
+                    alt="project image"
+                  />
+                </div>
               </div>
             </div>
           </div>
-          <h5>Left &amp; Right</h5>
-          <p>
-            <span class="image left"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum
-            nisi, quis tincidunt
-            felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis
-            in faucibus vestibulum. Blandit adipiscing eu felis iaculis
-            volutpat ac adipiscing accumsan eu faucibus. Integer ac
-            pellentesque praesent tincidunt felis sagittis eget. tempus
-            euismod. Vestibulum ante ipsum primis in faucibus vestibulum.
-            Blandit adipiscing eu felis iaculis volutpat ac adipiscing
-            accumsan eu faucibus. Integer ac pellentesque praesent. Donec
-            accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus
-            euismod. Vestibulum ante ipsum primis in faucibus vestibulum.
-            Blandit adipiscing eu felis iaculis volutpat ac adipiscing
-            accumsan eu faucibus. Integer ac pellentesque praesent tincidunt
-            felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis
-            in faucibus vestibulum. Blandit adipiscing eu felis iaculis
-            volutpat ac adipiscing accumsan eu faucibus. Integer ac
-            pellentesque praesent.
-          </p>
-          <p>
-            <span class="image right"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan
-            interdum nisi, quis tincidunt
-            felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis
-            in faucibus vestibulum. Blandit adipiscing eu felis iaculis
-            volutpat ac adipiscing accumsan eu faucibus. Integer ac
-            pellentesque praesent tincidunt felis sagittis eget. tempus
-            euismod. Vestibulum ante ipsum primis in faucibus vestibulum.
-            Blandit adipiscing eu felis iaculis volutpat ac adipiscing
-            accumsan eu faucibus. Integer ac pellentesque praesent. Donec
-            accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus
-            euismod. Vestibulum ante ipsum primis in faucibus vestibulum.
-            Blandit adipiscing eu felis iaculis volutpat ac adipiscing
-            accumsan eu faucibus. Integer ac pellentesque praesent tincidunt
-            felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis
-            in faucibus vestibulum. Blandit adipiscing eu felis iaculis
-            volutpat ac adipiscing accumsan eu faucibus. Integer ac
-            pellentesque praesent.
-          </p>
-        </section>
+        </div>
       </div>
-      <a href="#footer" class="goto-next scrolly">Next</a>
-    </div>
-  </section> -->
-
-    <!-- Footer -->
-    <section id="footer">
+    </section> -->
+    <!-- SKILL -->
+    <section
+      class="resume py-5 d-lg-flex justify-content-center align-items-center"
+      id="skill"
+    >
       <div class="container">
-        <header class="major">
-          <h2>Get in touch</h2>
-        </header>
-
-        <!-- <form method="post" onsubmit="sendEmail()"> -->
-
-        <div class="row uniform">
-          <!-- <div class="6u 12u$(xsmall)">
-            <span class="label">Rajat Singh</span> -->
-          <!-- Name
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Name"
-              value="Rajat Singh"
-              disabled
-              required
-            /> -->
-          <!-- </div> -->
-          <div class="6u 12u$(xsmall)">
-            <i class="fa fa-phone" aria-hidden="true"></i>
-            <span class="label">+91-7007619747</span>
-            <!-- Name
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Name"
-              value="Rajat Singh"
-              disabled
-              required
-            /> -->
-          </div>
-          <div class="6u$ 12u$(xsmall)">
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-            <span class="label">iamrajatsingh1@gmail.com</span>
-            <!-- <span class="icon alt fa-instagram"
-              ><span class="label">iamrajatsingh1@gmail.com</span></span
-            > -->
-            <!-- <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email"
-              value="iamrajatsingh1@gmail.com"
-              disabled
-              required
-            /> -->
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-6 col-12">
+            <!-- <div class="col-lg-5 col-md-12 col-12"> -->
+            <div class="about-image svg">
+              <img
+                src="images/undraw/undraw_programming.svg"
+                class="img-fluid"
+                alt="svg image"
+              />
+            </div>
+            <!-- </div> -->
           </div>
 
-          <div class="12u$">
-            <span class="label"><b>Availablilty</b></span>
-            <p>Mon-Sat: 10:00 AM – 9:00 PM Sun: 11:00 AM – 04:00 PM</p>
-            <!-- <textarea
-              name="message"
-              id="message"
-              placeholder="Message"
-              rows="4"
-              required
-            ></textarea> -->
+          <div class="col-lg-6 col-12">
+            <h2 class="mb-4 mobile-mt-2">Skill</h2>
+
+            <div class="timeline">
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span>Web</span>
+                </div>
+                <div class="timeline-info">
+                  <h3><span>Web development</span></h3>
+                  <p>ReactJS| Redux | HTML5 | CSS | bootstrap | JS | EJS</p>
+                </div>
+              </div>
+
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span>Server</span>
+                </div>
+                <div class="timeline-info">
+                  <h3>
+                    <span>Backend</span>
+                  </h3>
+                  <p>
+                    Building backend services using NodeJS - Express framework
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span>DB</span>
+                </div>
+                <div class="timeline-info">
+                  <h3>
+                    <span>Database</span>
+                  </h3>
+                  <p>Database management system using MongoDB & MySql.</p>
+                </div>
+              </div>
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span>Cloud</span>
+                </div>
+                <div class="timeline-info">
+                  <h3>
+                    <span>Deployment</span>
+                  </h3>
+                  <p>
+                    Web & Code deployments using AWS CI/CD Pipelines, Jenkins,
+                    Netlify.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <!-- <div class="12u$">
-              <ul class="actions">
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK EXPERIENCE -->
+    <section
+      class="resume py-5 d-lg-flex justify-content-center align-items-center"
+      id="work"
+    >
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-6 col-12">
+            <h2 class="mb-4">Work Experiences</h2>
+
+            <div class="timeline">
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span>Present</span>
+                </div>
+                <div class="timeline-info">
+                  <h3>
+                    <span>Full stack developer</span>
+                    <h6>Slice</h6>
+                  </h3>
+
+                  <p>
+                    <b>Developed Full-stack scalable web applications</b> that
+                    processed, analyzed, and rendered data visually, using
+                    <b>React-redux, HTML5/ CSS </b>ensuring high performance on
+                    Mobile and Desktop.
+                  </p>
+                  <p>
+                    <b>Designed & developed an Access control service</b>
+                    which gives Access to users having specific Role with its
+                    corresponding permissions and renders the React Components
+                    accordingly.
+                  </p>
+                  <p>
+                    <b>Design & development of Restful APIs </b>& Micro-services
+                    using NodeJS, Express, and MongoDB, Redis.
+                  </p>
+                  <p>
+                    <b>Collaboration</b> with back end developers, front end
+                    developers, Quality assurance testers, Data engineers,
+                    Product team, and Designers as required.
+                  </p>
+                  <p>Resolving <b>bugs </b>reported on real time basis.</p>
+                  <p>
+                    <b>Production deployments & Log monitoring</b> to make sure
+                    the releases are healthy.
+                  </p>
+                  <p>
+                    Usage of Cloud storage services like
+                    <b>AWS S3 bucket, & Cloudinary.</b>
+                  </p>
+                  <p>
+                    Also worked on AngularJS, Typescript, Embedded Javascript
+                  </p>
+                  <p>
+                    Key tools used:
+                    <b
+                      >Github, Confluence, Jira, Opsgenie, Sentry, AWS,
+                      Webstorm</b
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span>2019</span>
+                </div>
+                <div class="timeline-info">
+                  <h3>
+                    <span>Full stack developer</span>
+                    <h6>MountBlue Technologies</h6>
+                  </h3>
+                  <p>
+                    Gained knowledge in
+                    <b>MongoDB | Express | React-Redux | NodeJS.</b>
+                  </p>
+                  <p>Deep understanding in Javascript/ES6+, JQuery, EJS.</p>
+                  <p>
+                    Designed and developed Micro-services based on NodeJS
+                    Express.
+                  </p>
+                  <p>
+                    Understanding in Database management using MySql/MongoDB
+                  </p>
+                  <p>
+                    Gained knowledge in <b>System design & architecture</b> of
+                    the complex web applications Apps.
+                  </p>
+                  <p>
+                    Created clone of <b>Myntra</b> website using ReactJs,
+                    MongoDB & NodeJs.
+                  </p>
+                  <p>
+                    Key tools used: <b>GitLab, Todoist, AWS, Heroku, VS-Code</b>
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span>2018</span>
+                </div>
+                <div class="timeline-info">
+                  <h3>
+                    <span>Android developer Intern</span>
+                    <h6>Lucknow Metro Railway Corporation</h6>
+                  </h3>
+                  <p>
+                    Developed an android applicaiton in collaboration with other
+                    developers, that collects data of the Metro commuters using
+                    a form. Worked closely with the developers on designing an
+                    Android based application on java giving useful information
+                    of Daily Metro commuters.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span>College</span>
+                </div>
+                <!-- <div class="timeline-info">
+                                <h3><span>Junior Designer<small>Crafted Co.</small></h3>
+                                <p>Cras scelerisque scelerisque condimentum. Nullam at volutpat mi. Nunc auctor ipsum eget magna consequat viverra.</p>
+                            </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-12">
+            <!-- <div class="col-lg-5 col-md-12 col-12"> -->
+            <div class="about-image svg">
+              <img
+                src="images/undraw/undraw_work.svg"
+                class="img-fluid"
+                alt="svg image"
+              />
+            </div>
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Academics -->
+    <section
+      class="resume py-5 d-lg-flex justify-content-center align-items-center"
+      id="academics"
+    >
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-6 col-12">
+            <!-- <div class="col-lg-5 col-md-12 col-12"> -->
+            <div class="about-image svg">
+              <img
+                src="images/undraw/undraw_certificate_343v.svg"
+                class="img-fluid"
+                alt="svg image"
+              />
+            </div>
+            <!-- </div> -->
+          </div>
+          <div class="col-lg-6 col-12">
+            <h2 class="mb-4 mobile-mt-2">Academics</h2>
+
+            <div class="timeline">
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span>2019</span>
+                </div>
+                <div class="timeline-info">
+                  <h3>
+                    <span>Bachelor of Technology</span>
+                    <h6>Jaypee Institute of Information Technology</h6>
+                  </h3>
+                  <p>
+                    Majored in Computer Science & graduated with a first class
+                    grade. I had also published Two Research papers in
+                    International Conference on Contemporary Computing IC3 on
+                    projects based on Machine Learning techniques like SVM, and
+                    LSTM
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span>2014</span>
+                </div>
+                <div class="timeline-info">
+                  <h3>
+                    <span> Secondary & Sr. Secondary school </span>
+                    <h6>CMS, Lucknow</h6>
+                  </h3>
+                  <p>
+                    Completed Secondary & Sr. Secondary school (ISC BOARD)
+                    majored in Science, Mathematics and Computer Science scoring
+                    94%.
+                  </p>
+                </div>
+              </div>
+
+              <!-- <div class="timeline-wrapper">
+                <div class="timeline-yr">
+                  <span>2013</span>
+                </div>
+                <div class="timeline-info">
+                  <h3>
+                    <span>Artwork Design</span><small>New Art School</small>
+                  </h3>
+                  <p>
+                    You can freely use Tooplate's templates for your business or
+                    personal sites. You cannot redistribute this template
+                    without a permission.
+                  </p>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOGS -->
+    <section
+      class="resume py-5 d-lg-flex justify-content-center align-items-center"
+      id="blog"
+    >
+      <div class="container">
+        <h2 class="mb-4">Blog</h2>
+        <div class="row d-flex justify-content-between align-items-center">
+          <!-- Blog - 1  -->
+          <div class="col-lg-6 col-12" style="padding: 15px">
+            <div class="blog-card">
+              <img
+                src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1621766998/redux-saga_nsomzy.jpg"
+                alt="Blog-preview image"
+                style="width: 100%; border-radius: 5px 5px 0 0"
+              />
+              <div class="container">
+                <h3><b>Overview of Redux-saga: Side Effect manager</b></h3>
+                <p>
+                  In this guide, we’ll explore Redux & usage of its middleware
+                  saga/thunk. We’ll see what effective solution redux-saga
+                  provides. And at the end, we’ll create a small app using
+                  redux-saga & compare it with Redux-thunk middleware.
+                </p>
+                <div style="padding: 10px">
+                  <a
+                    class="btn mr-lg-2 custom-btn"
+                    target="_blank"
+                    href="https://iamrajatsingh1.medium.com/overview-of-redux-saga-side-effect-manger-802bd656db37"
+                    ><i class="uil uil-file-alt"></i> Read more</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Blog - 2  -->
+          <div class="col-lg-6 col-12" style="padding: 15px">
+            <div class="blog-card">
+              <img
+                src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1621767086/login_form_u54si3.jpg"
+                alt="desktop"
+                style="width: 100%; border-radius: 5px 5px 0 0"
+              />
+              <div class="container">
+                <h3><b>Config driven UI</b></h3>
+                <p>
+                  In this guide, we’ll see how Configs can be used to render two
+                  types of UI: Config driven Forms/UI, & Data-driven Forms/UI
+                  using a Config
+                </p>
+                <div style="padding: 10px">
+                  <a
+                    class="btn mr-lg-2 custom-btn"
+                    target="_blank"
+                    href="https://iamrajatsingh1.medium.com/config-driven-ui-c8e93b730993"
+                  >
+                    <i class="uil uil-file-alt"></i> Read more
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-between align-items-center">
+          <!-- Blog - 3  -->
+          <div class="col-lg-6 col-12" style="padding: 15px">
+            <div class="blog-card">
+              <img
+                src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1621172004/carl-heyerdahl-KE0nC8-58MQ-unsplash_b15lcq.jpg"
+                alt="Blog-preview image"
+                style="width: 100%; border-radius: 5px 5px 0 0"
+              />
+              <div class="container">
+                <h3><b>Guide to React hooks with Redux</b></h3>
+                <p>
+                  Here, I’ll discuss React Hooks which is a new addition in
+                  React 16.8. They let you use state and other React features
+                  without writing a class. In this blog, I’ll tell you exactly
+                  how to use hooks efficiently & their usage with Redux using
+                  only React hooks.
+                </p>
+                <div style="padding: 10px">
+                  <a
+                    class="btn mr-lg-2 custom-btn"
+                    target="_blank"
+                    href="https://iamrajatsingh1.medium.com/guide-to-react-hooks-with-redux-c5b9d6e3c362"
+                    ><i class="uil uil-file-alt"></i> Read more</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Blog - 4  -->
+          <div class="col-lg-6 col-12" style="padding: 15px">
+            <div class="blog-card">
+              <img
+                src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1621180875/code_tecinz.jpg"
+                alt="Blog-preview image"
+                style="width: 100%; border-radius: 5px 5px 0 0"
+              />
+              <div class="container">
+                <h3><b>5 steps to debug the code blocks</b></h3>
+                <p>
+                  At one time or another, as a developer, we all have been
+                  hopelessly stuck on a coding issue we had to solve.
+                  Desperately searching StackOverflow for the same thinking that
+                  someone might have the exact issue that you do. Only to find
+                  that the answer was right in front of you the whole time, how
+                  could you miss it!
+                </p>
+                <div style="padding: 10px">
+                  <a
+                    class="btn mr-lg-2 custom-btn"
+                    target="_blank"
+                    href="https://iamrajatsingh1.medium.com/5-steps-to-debug-the-code-blocks-6b69a70c86ca"
+                    ><i class="uil uil-file-alt"></i> Read more</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Corousel -->
+    <!-- Images have been remmoved -->
+    <!-- <img
+                    src="images/project/project-image01.png"
+                    class="img-fluid"
+                    alt="project image"
+                  /> -->
+    <!-- <section class="project py-5" id="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-11 text-center mx-auto col-12">
+            <div class="col-lg-8 mx-auto">
+              <h2>Blogs</h2>
+            </div>
+
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div
+                  class="project-info"
+                  style="
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  
+                  <div class="blog-card">
+                    <img
+                      src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1621766998/redux-saga_nsomzy.jpg"
+                      alt="Blog-preview image"
+                      style="width: 100%; border-radius: 5px 5px 0 0"
+                    />
+                    <div class="container">
+                      <h3>
+                        <b>Overview of Redux-saga: Side Effect manager</b>
+                      </h3>
+                      <p>
+                        In this guide, we’ll explore Redux & usage of its
+                        middleware saga/thunk. We’ll see what effective solution
+                        redux-saga provides. And at the end, we’ll create a
+                        small app using redux-saga & compare it with Redux-thunk
+                        middleware.
+                      </p>
+                      <div style="padding: 10px">
+                        <a
+                          class="btn mr-lg-2 custom-btn"
+                          target="_blank"
+                          href="https://iamrajatsingh1.medium.com/overview-of-redux-saga-side-effect-manger-802bd656db37"
+                          ><i class="uil uil-file-alt"></i> Read more</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div
+                  class="project-info"
+                  style="
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <div class="blog-card">
+                    <img
+                      src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1621767086/login_form_u54si3.jpg"
+                      alt="desktop"
+                      style="width: 100%; border-radius: 5px 5px 0 0"
+                    />
+                    <div class="container">
+                      <h3><b>Config driven UI</b></h3>
+                      <p>
+                        In this guide, we’ll see how Configs can be used to
+                        render two types of UI: Config driven Forms/UI, &
+                        Data-driven Forms/UI using a Config
+                      </p>
+                      <div style="padding: 10px">
+                        <a
+                          class="btn mr-lg-2 custom-btn"
+                          target="_blank"
+                          href="https://iamrajatsingh1.medium.com/config-driven-ui-c8e93b730993"
+                        >
+                          <i class="uil uil-file-alt"></i> Read more
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div
+                  class="project-info"
+                  style="
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <div class="blog-card">
+                    <img
+                      src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1621172004/carl-heyerdahl-KE0nC8-58MQ-unsplash_b15lcq.jpg"
+                      alt="Blog-preview image"
+                      style="width: 100%; border-radius: 5px 5px 0 0"
+                    />
+                    <div class="container">
+                      <h3><b>Guide to React hooks with Redux</b></h3>
+                      <p>
+                        Here, I’ll discuss React Hooks which is a new addition
+                        in React 16.8. They let you use state and other React
+                        features without writing a class. In this blog, I’ll
+                        tell you exactly how to use hooks efficiently & their
+                        usage with Redux using only React hooks.
+                      </p>
+                      <div style="padding: 10px">
+                        <a
+                          class="btn mr-lg-2 custom-btn"
+                          target="_blank"
+                          href="https://iamrajatsingh1.medium.com/guide-to-react-hooks-with-redux-c5b9d6e3c362"
+                          ><i class="uil uil-file-alt"></i> Read more</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div
+                  class="project-info"
+                  style="
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <div class="blog-card">
+                    <img
+                      src="https://res.cloudinary.com/iamrajatsingh/image/upload/v1621180875/code_tecinz.jpg"
+                      alt="Blog-preview image"
+                      style="width: 100%; border-radius: 5px 5px 0 0"
+                    />
+                    <div class="container">
+                      <h3><b>5 steps to debug the code blocks</b></h3>
+                      <p>
+                        At one time or another, as a developer, we all have been
+                        hopelessly stuck on a coding issue we had to solve.
+                        Desperately searching StackOverflow for the same
+                        thinking that someone might have the exact issue that
+                        you do. Only to find that the answer was right in front
+                        of you the whole time, how could you miss it!
+                      </p>
+                      <div style="padding: 10px">
+                        <a
+                          class="btn mr-lg-2 custom-btn"
+                          target="_blank"
+                          href="https://iamrajatsingh1.medium.com/5-steps-to-debug-the-code-blocks-6b69a70c86ca"
+                          ><i class="uil uil-file-alt"></i> Read more</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 mr-lg-5 col-12">
+            <div class="google-map w-100">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1638.3584358336257!2d81.00408581904837!3d26.84024441226732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be2d8bc6deb3b%3A0xe553ce12f7364e51!2sGreenwood%20Apartments%20A%2CB%2CC%2CD!5e0!3m2!1sen!2sin!4v1622129996421!5m2!1sen!2sin"
+                width="400"
+                height="300"
+                style="border: 0"
+                allowfullscreen
+                loading="lazy"
+              ></iframe>
+            </div>
+
+            <div
+              class="
+                contact-info
+                d-flex
+                justify-content-between
+                align-items-center
+                py-4
+                px-lg-5
+              "
+            >
+              <div class="contact-info-item">
+                <h3 class="mb-3 text-white">Say hello</h3>
+                <p class="footer-text mb-0">+91-7007619747</p>
+                <p>
+                  <a href="mailto:iamrajatsingh1@gmail.com"
+                    >iamrajatsingh1@gmail.com</a
+                  >
+                </p>
+              </div>
+
+              <ul class="social-links">
                 <li>
-                  <input type="submit" value="Send Message" class="special" />
+                  <a
+                    href="#"
+                    class="uil uil-dribbble"
+                    data-toggle="tooltip"
+                    data-placement="left"
+                    title="Dribbble"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="uil uil-instagram"
+                    data-toggle="tooltip"
+                    data-placement="left"
+                    title="Instagram"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="uil uil-youtube"
+                    data-toggle="tooltip"
+                    data-placement="left"
+                    title="Youtube"
+                  ></a>
                 </li>
               </ul>
-            </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-12">
+            <div class="contact-form">
+              <h2 class="mb-4">Interested to work together? Let's talk</h2>
+              <h6 id="formstatus"></h6>
+              <form id="contact-form-details" action="">
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="name"
+                      placeholder="Your Name"
+                      id="name"
+                    />
+                  </div>
+
+                  <div class="col-lg-6 col-12">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      placeholder="Email"
+                      id="email"
+                    />
+                  </div>
+
+                  <div class="col-12">
+                    <textarea
+                      name="message"
+                      rows="6"
+                      class="form-control"
+                      id="message"
+                      placeholder="Message"
+                    ></textarea>
+                  </div>
+
+                  <div class="ml-lg-auto col-lg-5 col-12">
+                    <input
+                      type="submit"
+                      class="form-control submit-btn"
+                      value="Send Button"
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-
-        <!-- </form> -->
       </div>
-
-      <footer>
-        <ul class="icons">
-          <!-- <li>
-            <a href="#" class="icon alt fa-twitter"
-              ><span class="label">Twitter</span></a
-            >
-          </li>
-          <li>
-            <a href="https://www.facebook.com/" class="icon alt fa-facebook"
-              ><span class="label">Facebook</span></a
-            >
-          </li> -->
-          <li>
-            <a
-              target="_blank"
-              href="https://www.instagram.com/rxjxtsxngh/"
-              class="icon alt fa-instagram"
-              ><span class="label">Instagram</span></a
-            >
-          </li>
-          <li>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/rajat-singh-798572154/"
-              class="icon alt fa-linkedin"
-              ><span class="label">Linked In</span></a
-            >
-          </li>
-          <li>
-            <a
-              target="_blank"
-              href="https://iamrajatsingh1.medium.com/"
-              class="icon alt"
-            >
-              <img
-                style="width: 26px; margin-bottom: -5px"
-                src="https://img.icons8.com/ios-filled/50/ffffff/medium-new.png"
-                class="medium-icon"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/rajatsyngh" class="icon fa-github"
-              ><span class="label">Github</span></a
-            >
-          </li>
-          <li>
-            <a
-              href="https://mail.google.com/mail/u/0/#inbox"
-              class="icon alt fa-envelope"
-              ><span class="label">Email</span></a
-            >
-          </li>
-        </ul>
-        <ul class="copyright">
-          <li>&copy; Copyright 2021. All Rights Reserved</li>
-          <li>Rajat Singh</li>
-          <!-- <li>Demo Images: <a href="http://unsplash.com">Unsplash</a></li> -->
-        </ul>
-      </footer>
     </section>
+
+    <!-- FOOTER -->
+    <footer class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-12">
+            <!-- <ul class="icons">
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/rxjxtsxngh/"
+                  class="icon alt fa-instagram"
+                  ><span class="label">Instagram</span></a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/rajat-singh-798572154/"
+                  class="icon alt fa-linkedin"
+                  ><span class="label">Linked In</span></a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://iamrajatsingh1.medium.com/"
+                  class="icon alt"
+                >
+                  <img
+                    style="width: 26px; margin-bottom: -5px"
+                    src="https://img.icons8.com/ios-filled/50/ffffff/medium-new.png"
+                    class="medium-icon"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/rajatsyngh" class="icon fa-github"
+                  ><span class="label">Github</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://mail.google.com/mail/u/0/#inbox"
+                  class="icon alt fa-envelope"
+                  ><span class="label">Email</span></a
+                >
+              </li>
+            </ul> -->
+            <p class="copyright-text text-center">
+              Copyright &copy; 2021 Rajat Singh . All rights reserved
+            </p>
+            <p class="copyright-text text-center">
+              Designed by myself using
+              <a
+                target="_blank"
+                rel="nofollow"
+                href="https://undraw.co/illustrations"
+                >Undraw illustrations</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="./dist/bundle-custom.js"></script>
   </body>
 </html>
