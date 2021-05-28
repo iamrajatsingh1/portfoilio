@@ -45,7 +45,7 @@ body {
   color: $body-font-color;
   font-size: $small-font-size;
   font-weight: $font-weight-bold;
-  padding: 8px 16px;
+  padding: 8px 0px;
   border-radius: 50px;
   letter-spacing: 0.2px;
 }
@@ -679,5 +679,15 @@ strong {
       display: inline-block;
       vertical-align: top;
     }
+  }
+}
+@media (max-width: 580px) {
+  .container {
+    max-width: none !important;
+  }
+}
+@media (max-width: 991px) {
+  .work-experience {
+    flex-direction: column-reverse !important;
   }
 }
