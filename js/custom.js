@@ -20,7 +20,7 @@
 
   // SMOOTHSCROLL
   $(function () {
-    $(".nav-link, .custom-btn-link, .button-got-top").on(
+    $(".nav-link, .custom-btn-link, .button-goto-top").on(
       "click",
       function (event) {
         var $anchor = $(this);
