@@ -1,9 +1,6 @@
-/*
-
-Tooplate 2115 Marvel
-
-https://www.tooplate.com/view/2115-marvel
-
+/**
+Rajat Singh @ Copyright.
+All Rights are reserved. 2021 
 */
 
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
@@ -20,7 +17,7 @@ body {
   color: #5b5b5b;
   font-size: 14px;
   font-weight: bold;
-  padding: 8px 0px;
+  padding: 8px 16px;
   border-radius: 50px;
   letter-spacing: 0.2px;
 }
@@ -142,19 +139,19 @@ strong {
 .animated-item:nth-child(3n + 3) {
   animation-delay: 4s;
 }
+
 /* Blog Post cards */
 .blog-card {
   height: 97%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 80%;
+  /* width: 80%; */
   border-radius: 5px;
 }
 
 .blog-card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-
 @keyframes BottomTotop {
   0% {
     opacity: 0;
