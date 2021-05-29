@@ -45,4 +45,24 @@
 
   // TOOLTIP
   $(".social-links a").tooltip();
+  $("").$;
+  //
+
+  $("#contact-form-details").submit(function (event) {
+    event.preventDefault();
+    // let formData = $(this).serializeArray();
+    $("#submitFormStatus").empty().append("Submitted successfully.");
+    // $.ajax({
+    //   type: "POST",
+    //   url: "",
+    //   data: formData,
+    //   success: (resp) => {
+    //     if (resp.status) {
+    //       // $( "#result" ).empty().append( response );
+    //       alert(resp);
+    //     } else alert("Something went wrong.");
+    //   },
+    //   dataType: "JSON",
+    // });
+  });
 })(jQuery);

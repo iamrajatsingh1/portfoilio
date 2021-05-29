@@ -926,39 +926,43 @@
           <div class="col-lg-6 col-12">
             <div class="contact-form">
               <h2 class="mb-4">Interested to work together? Let's talk</h2>
-              <h6 id="formstatus"></h6>
               <form id="contact-form-details" action="">
                 <div class="row">
                   <div class="col-lg-6 col-12">
                     <input
-                      type="text"
+                      id="name"
                       class="form-control"
                       name="name"
+                      type="text"
                       placeholder="Your Name"
-                      id="name"
+                      required="{true}"
                     />
                   </div>
 
                   <div class="col-lg-6 col-12">
                     <input
-                      type="email"
+                      id="email"
                       class="form-control"
                       name="email"
+                      type="email"
                       placeholder="Email"
-                      id="email"
+                      required="{true}"
                     />
                   </div>
 
                   <div class="col-12">
                     <textarea
-                      name="message"
-                      rows="6"
-                      class="form-control"
                       id="message"
+                      class="form-control"
+                      name="message"
+                      type="text"
                       placeholder="Message"
+                      rows="6"
                     ></textarea>
                   </div>
-
+                  <div class="col-12">
+                    <h6 id="submitFormStatus" style="color: green"></h6>
+                  </div>
                   <div class="ml-lg-auto col-lg-5 col-12">
                     <input
                       type="submit"
