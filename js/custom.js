@@ -2,10 +2,16 @@
   "use strict";
 
   // COLOR MODE
-  $(".color-mode").click(function () {
+  // From Nav
+  $(".color-mode ").click(function () {
     $(".color-mode-icon").toggleClass("active");
     $("body").toggleClass("dark-mode");
   });
+  // From menu
+  // $(".float-theme-toggle-button").click(function () {
+  //   $(".color-mode-icon").toggleClass("active");
+  //   $("body").toggleClass("dark-mode");
+  // });
 
   // HEADER
   $(".navbar").headroom();

@@ -339,6 +339,16 @@ strong {
 .dark-mode .navbar-toggler-icon {
   background: #ffffff;
 }
+.dark-mode .blog-card {
+  height: 97%;
+  box-shadow: 0 4px 8px 0 darkgrey;
+  transition: 0.3s;
+  /* width: 80%; */
+  border-radius: 5px;
+}
+.dark-mode .blog-card:hover {
+  box-shadow: 0 8px 16px 0 darkgrey;
+}
 
 .timeline-wrapper {
   position: relative;
@@ -633,12 +643,3 @@ strong {
   max-width: 100%;
   display: inline-block;
 }
-
-/* @media (max-width: 575px) {
-  .color-mode {
-    display: none;
-  }
-  .nav-theme-toggle-button {
-    display: inline;
-  }
-} */
