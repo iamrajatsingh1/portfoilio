@@ -62,13 +62,9 @@
       service_id: "iamrajatsingh1_u3n6c0isa",
       template_id: "reply_template_rajat",
       template_params: {
-        subject: `${obj.name} messaged you from your Portfolio.`,
         user_name: obj.name,
         user_email: obj.email,
         message: `${obj.message || `${obj.name} tried contacting you.`}`,
-        my_name: "Rajat Singh",
-        my_email: "iamrajatsingh1@gmail.com",
-        reply_to: obj.email,
       },
     };
     $("#submitFormStatus").empty().append("Sending...");
@@ -78,6 +74,7 @@
       contentType: "application/json",
     })
       .done(function () {
+        sendThankYouMail(obj, () => {});
         $("#submitFormStatus").empty().append("Submitted successfully.");
       })
       .fail(function (error) {
@@ -88,4 +85,29 @@
           );
       });
   });
+  function sendThankYouMail(obj, cb) {
+    let data = {
+      user_id: "user_okwQj9dnUhQFaApHUSHLW",
+      accessToken: "9eacfd17554dde5a3fd54bf259b15207",
+      service_id: "iamrajatsingh1_u3n6c0isa",
+      template_id: "thankyou_template_rajat",
+      template_params: {
+        user_name: obj.name,
+        user_email: obj.email,
+        reply_to: "iamrajatsingh1@gmail.com",
+      },
+    };
+
+    $.ajax("https://api.emailjs.com/api/v1.0/email/send", {
+      type: "POST",
+      data: JSON.stringify(data),
+      contentType: "application/json",
+    })
+      .done(function () {
+        cb(true);
+      })
+      .fail(function (error) {
+        cb(false);
+      });
+  }
 })(jQuery);
