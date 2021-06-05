@@ -619,13 +619,22 @@ strong {
   }
 
   .navbar-collapse {
-    background: $text-white;
     text-align: center;
     padding-bottom: 20px;
+  }
+  .dark-mode .navbar {
+    background: #0c0c0d !important;
+  }
+  .navbar {
+    background: #ffffff !important;
   }
 
   .navbar-expand-sm .navbar-nav .nav-link {
     padding: 3px 20px;
+  }
+
+  .flex-wrap-nav {
+    flex-wrap: wrap !important;
   }
 }
 
