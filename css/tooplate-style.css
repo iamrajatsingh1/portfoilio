@@ -98,6 +98,15 @@ strong {
 }
 .custom-btn.custom-btn-bg {
   background: #474559;
+  background-image: linear-gradient(45deg, #2f2e41, #6c4e94);
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(71, 69, 89);
+  /* background: #474559; */
   color: #ffffff;
 }
 .custom-btn.custom-btn-bg:hover {
@@ -122,16 +131,17 @@ strong {
 }
 
 .animated-item {
-  font-size: 38px;
+  width: max-content;
+  font-size: 42px;
   line-height: inherit;
   display: block;
   opacity: 0;
   overflow: hidden;
   position: absolute;
-  top: 0;
+  /* top: 0;
   right: 0;
-  left: 0;
-  animation: BottomTotop 6s linear infinite 0s;
+  left: 0; */
+  animation: BottomTotop 8s linear infinite 0s;
 }
 .animated-item:nth-child(2n + 2) {
   animation-delay: 2s;
@@ -139,14 +149,17 @@ strong {
 .animated-item:nth-child(3n + 3) {
   animation-delay: 4s;
 }
+.animated-item:nth-child(4n + 4) {
+  animation-delay: 6s;
+}
 
 /* Blog Post cards */
 .blog-card {
   height: 97%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  /* width: 80%; */
   border-radius: 5px;
+  background-color: whitesmoke;
 }
 
 .blog-card:hover {
@@ -318,8 +331,9 @@ strong {
 }
 .dark-mode .small-text {
   background: #0d0c15;
-  color: #ffffff;
+  color: #bdc1c6;
 }
+
 .dark-mode .feature-card .uil,
 .dark-mode .navbar-light .navbar-brand,
 .dark-mode h1,
@@ -329,7 +343,10 @@ strong {
 .dark-mode h5,
 .dark-mode h6,
 .dark-mode .color-mode {
-  color: #ffffff;
+  color: #bdc1c6;
+}
+.dark-mode p {
+  color: #bdc1c6;
 }
 .dark-mode .owl-carousel .owl-nav button.owl-next,
 .dark-mode .owl-carousel .owl-nav button.owl-prev,
@@ -341,13 +358,13 @@ strong {
 }
 .dark-mode .blog-card {
   height: 97%;
-  box-shadow: 0 4px 8px 0 darkgrey;
+  box-shadow: 0 4px 8px 0 rgb(60, 58, 58);
   transition: 0.3s;
-  /* width: 80%; */
   border-radius: 5px;
+  background-color: #202124;
 }
 .dark-mode .blog-card:hover {
-  box-shadow: 0 8px 16px 0 darkgrey;
+  box-shadow: 0 8px 16px 0 rgb(72, 69, 69);
 }
 
 .timeline-wrapper {
@@ -368,6 +385,14 @@ strong {
 
 .timeline-yr {
   background: #474559;
+  background-image: linear-gradient(45deg, #2f2e41, #6c4e94);
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(71, 69, 89);
   border-radius: 100%;
   position: absolute;
   width: 75px;
